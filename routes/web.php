@@ -15,3 +15,6 @@ Route::get('/user', function () {
 Route::get('/user', function () {
     return view('user');
 });
+Route::get('/ceks', function () {
+    return view('user');
+});
